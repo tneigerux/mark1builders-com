@@ -1,0 +1,248 @@
+		*{
+			border:none;
+			list-style:none;
+		}
+
+		ul#thumbs{
+			float:left;
+		}
+		ul#thumbs li{
+			float:left;
+		}
+		ul#thumbs li a{
+			width:150px;
+			height:75px;
+			display:block;
+			margin:0px 50px 20px 0px;
+			padding:0px 0px 0px 0px
+		}
+		
+		ul#thumbsnav {
+			height:55px;
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 0px;
+		}
+
+		#contentbody{
+			float:left;
+			width:839px;
+			padding-bottom:0px;
+		}	
+		#content{
+			padding-bottom : 0px;
+			height : 600px;
+		}
+		
+		#navtree{
+			width:175px;
+			height : 600px;
+			float:left;
+			margin:0px 0px 0px 39px;
+			padding:0px 0px 0px 0px;
+			background : #614020;
+		}
+		
+		#navtree p {
+			padding: 0px 8px 0px 8px;
+			color :#f3faf0;
+		}
+				
+		#navtree h3{
+			color:#996633;
+			font-size:1em;
+		}
+		#navtree li{
+			padding:5px 0;
+		}
+		#navtree a{
+			display:block;
+			padding:5px;
+			color:#fff;
+			font-weight:bold;
+			text-decoration:none;
+			}
+		
+		#navtree a:hover {text-decoration:underline;}
+		
+		#navtree strong a{
+			padding:0;
+			color:#ef8200;
+		}
+		#navtree strong{
+			padding:5px;
+			display:block;
+			background:#f3faf0;
+		}
+		
+		#galleryspace {
+			padding:25px;
+			width:470px;
+			float:left;
+		}
+		
+		#darkroom {
+			position: fixed;
+		    top: 0%;
+		    left: 0%;
+		    width: 100%;
+		    height: 100%;
+		    z-index:100;
+			background-image:url('../images/90opacity1x1.png');
+			background-repeat:repeat;
+		}
+
+		#largepic{
+			z-index:101;
+			width:660px;
+			height:340px;
+			background-image : url('../images/close-button.png');
+			background-position : top right; 
+			background-repeat : no-repeat;
+			color:#f3faf0;	
+			margin:120px auto 0px auto;
+			padding-right:0px;
+			padding-top:20px;
+		}
+		
+		#largepic img{
+			display:block;
+			padding-top:20px;
+		}
+		
+		#picthumbs{
+			clear:both;
+			width:640px;
+			height:75px;		
+			margin:8px auto 0px auto;
+			padding-right:20px;
+			padding-left:0px;
+		}
+		#picthumbs li{
+			float:left;
+			padding:0px;
+			margin-left:0px;
+		}
+		#picthumbs li a{
+			display:block;
+			width:230px;	
+			height:75px;
+		}
+		
+		#thumbs li img,#picthumbs li img{
+			margin:0 auto;
+			display:block;
+			padding:0;
+		}
+		#thumbsnav{
+			clear:both;
+		}
+		#thumbsnav li{
+			float:left;
+			padding: 0px 0px 0px 0px;
+			font-size:1.5em;
+			line-height:55px;
+			color:#614020;
+		}
+		#thumbsnav li a{
+			line-height:55px;
+			text-indent:-200px;
+			overflow:hidden;
+		}
+		a.prev{
+			display:block;
+			width:80px;
+			height:75px;
+			margin-left:10px;
+			margin-right:80px;
+			background:url(../images/arrows.png) center left transparent no-repeat;
+		}
+		a.next{
+			display:block;
+			width:80px;
+			height:75px;
+			margin-right:10px;
+			margin-left:80px;			
+			background:url(../images/arrows.png) center right transparent no-repeat;
+		}
+		#picthumbs li a.prev img{
+			margin-left:80px;
+			display:block;
+		}
+		#picthumbs li a.next img{
+			margin-right:80px;
+			display:block;
+		}
+
+		#form {
+			
+		}
+		
+		#form div {
+			background-image : url('../images/form-parts.png');
+			background-repeat:no-repeat;
+			background-position: center center;
+			height:68px;
+			width:700px;
+			display:block;
+			padding: 10px 60px 0px 60px;
+			margin:0px 39px;
+		}
+		
+		#form div.large {
+			background-image : url('../images/form-parts-large.png');
+			background-repeat:no-repeat;
+			background-position: top right;
+			height:206px;
+			width:756px;
+			display:block;
+			margin: 3px 0px 0px 20px;
+			padding: 0px 0px 20px 0px;
+		}
+		
+		#form h2 {
+			color:#ef8200;
+			font-size:1.2em;
+			margin : 0px 0px 4px 140px;
+			padding : 0px 0px 0px 0px;
+		}
+		
+		#form input {
+			background-color:#fff;
+			border:1px solid #ffcc66;
+			font-size:1.2em;
+			margin-top:0px;
+			margin-left:22px;
+			padding:0px;
+			float:left;
+		}
+		
+		#form p {
+			color:#614020;
+			font-size:0.75em;
+			margin:-5px 0px 0px 370px;
+			padding:0px 0px 0px 0px;
+			}
+			
+		#form textarea {
+			border:1px solid #ffcc66;
+			font-size:1.2em;
+			margin-top:25px;
+			margin-left:22px;
+			padding-top:0px;
+			float:left;
+		}
+		
+		#form input.button {
+			color:#614020;
+			background-color:#e7e1d8;
+			border:0px solid #ffcc66;
+			background-image : url('../images/mail_48.png');
+			background-repeat:no-repeat;
+			background-position:left;			
+			text-transform:uppercase;
+			margin:155px 0px 0px 90px;
+			padding:0px 0px 0px 50px;
+			width:110px;
+			height:48px;
+			cursor:pointer;
+		}
