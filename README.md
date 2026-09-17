@@ -15,20 +15,46 @@ Follow these instructions to set up your environment and run the site locally.
 
 ### macOS
 
-Assumes Homebrew is installed
+Assumes Homebrew is installed. Uses OrbStack which is MacOS only.
    
-brew install --cask orbstack
-open -a OrbStack
-docker compose up -d
-open http://m1b-com-2026.orb.local
+* ```bash
+  brew install --cask orbstack
+  ```
+
+* ```bash
+  open -a OrbStack
+  ```
+
+* ```bash
+  docker compose up -d
+  ```
+
+* ```bash
+  open http://m1b-com-2026.orb.local
+  ```
+
 
 
 ### Windows
 
-winget install Docker.DockerDesktop
-Start-Process "C:\Program Files\Docker\Docker\Docker Desktop.exe"
-docker compose up -d
-Start-Process http://localhost:8080
+Assumes WSL is installed. Uses Docker for Virtualization
+
+* ```bash
+  sudo apt update && sudo apt install -y docker.io docker-compose-v2
+  ```
+
+* ```bash
+  sudo service docker start
+  ```
+
+* ```bash
+  docker compose up -d
+  ```
+
+* ```bash
+  explorer.exe http://localhost:8080
+  ```
+
 
 ## Original generated basics
 
